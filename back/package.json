@@ -1,0 +1,19 @@
+{
+  "name": "shelf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "gechmind",
+  "license": "MIT",
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "fast-xml-parser": "^3.12.0",
+    "he": "^1.1.1",
+    "koa": "^2.5.2",
+    "koa-forward-request": "^0.8.0",
+    "koa-proxies": "^0.7.0",
+    "koa-router": "^7.4.0",
+    "koa-xml-body": "^2.0.0",
+    "mongoose": "^5.2.9",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,4 @@
+/* helloworld.wxss */
+.content_list{position: relative;}
+.list{width: 350rpx;min-height: 200rpx;}
+.img_item{width: 100%;}

@@ -1,0 +1,11 @@
+<view class="content_list">
+    <view class="list ">
+        <image class="img_item " src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535397784877&di=34cca2f53d88e819cd4be49199703a83&imgtype=jpg&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D2715630005%2C845068861%26fm%3D214%26gp%3D0.jpg"/>
+    </view>
+     <view class="list ">
+        <image class="img_item " src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535397783928&di=15099a7c7a4e8b0c204b99f30e64b59a&imgtype=0&src=http%3A%2F%2Fwww.christiantimes.cn%2Fassets%2Fcache%2F620x418%2Fassets%2Fmedia%2Fpost%2F201802%2F25981%2Fwww.christiantimes.cn-joshua-earle-63441.jpg"/>
+    </view>
+    <view>
+        <image  wx:for="{{temImgArr}}" wx:key="id" id="{{item.id}}" binderror="onImageError" src="http://{{item.link}}" bindload="onImageLoad"></image>
+    </view>
+</view>

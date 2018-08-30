@@ -1,0 +1,10 @@
+<view>
+ 	<view class="section__ctn">
+        <image  mode="aspectFit" src="{{src}}"></image>
+    </view>
+    <view>
+   		<text type="primary" bindtap="scancode">
+   			  coming soon
+   		</text>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+<view>
+ 	<view class="section__ctn">
+        <image  mode="aspectFit" src="{{src}}"></image>
+    </view>
+    <view>
+   		<button type="primary" bindtap="scancode">
+   			  扫码
+   		</button>
+    </view>
+</view>

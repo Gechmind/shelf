@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "module/scan/scan",
+    "module/loft/loft",
+    "module/trade/trade"
+  ],
+  "tabBar": {
+    "list": [{
+       "pagePath": "module/scan/scan",
+       "text": "扫",
+       "iconPath": "images/scan.png",
+       "selectedIconPath": "images/scan.png"
+    }, {
+      "pagePath": "module/loft/loft",
+      "text": "阁",
+      "iconPath": "images/loft.png",
+       "selectedIconPath": "images/loft.png"
+    },{
+      "pagePath": "module/trade/trade",
+      "text": "市",
+        "iconPath": "images/trade.png",
+       "selectedIconPath": "images/trade.png"
+    }],
+    "color": "#bfbfbf",
+    "selectedColor": "#1AAD19"
+  }
+}
